@@ -1,0 +1,15 @@
+@import "base.css";
+@import "accent.css";
+@import "gray.css";
+@import "gray-alpha.css";
+@import "pink.css";
+@import "purple.css";
+@import "red.css";
+@import "blue.css";
+@import "teal.css";
+@import "green.css";
+@import "amber.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

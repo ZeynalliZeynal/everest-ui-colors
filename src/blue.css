@@ -1,0 +1,42 @@
+:root {
+  --ds-blue-100: hsl(var(--ds-blue-100-value));
+  --ds-blue-1000: hsl(var(--ds-blue-1000-value));
+  --ds-blue-200: hsl(var(--ds-blue-200-value));
+  --ds-blue-300: hsl(var(--ds-blue-300-value));
+  --ds-blue-400: hsl(var(--ds-blue-400-value));
+  --ds-blue-500: hsl(var(--ds-blue-500-value));
+  --ds-blue-600: hsl(var(--ds-blue-600-value));
+  --ds-blue-700: hsl(var(--ds-blue-700-value));
+  --ds-blue-800: hsl(var(--ds-blue-800-value));
+  --ds-blue-900: hsl(var(--ds-blue-900-value));
+
+  &[data-theme="light"],
+  &.light,
+  &.light-theme {
+    --ds-blue-100-value: 212, 100%, 97%;
+    --ds-blue-1000-value: 211, 100%, 15%;
+    --ds-blue-200-value: 210, 100%, 96%;
+    --ds-blue-300-value: 209, 100%, 94%;
+    --ds-blue-400-value: 209, 100%, 90%;
+    --ds-blue-500-value: 209, 100%, 80%;
+    --ds-blue-600-value: 208, 100%, 66%;
+    --ds-blue-700-value: 212, 100%, 48%;
+    --ds-blue-800-value: 212, 100%, 41%;
+    --ds-blue-900-value: 211, 100%, 42%;
+  }
+  &,
+  &[data-theme="dark"],
+  &.dark,
+  &.dark-theme {
+    --ds-blue-100-value: 215 51% 12%;
+    --ds-blue-1000-value: 207 100% 96%;
+    --ds-blue-200-value: 214 59% 15%;
+    --ds-blue-300-value: 213 71% 20%;
+    --ds-blue-400-value: 212 78% 23%;
+    --ds-blue-500-value: 211 86% 27%;
+    --ds-blue-600-value: 206 100% 50%;
+    --ds-blue-700-value: 212 100% 48%;
+    --ds-blue-800-value: 212 100% 41%;
+    --ds-blue-900-value: 210 100% 66%;
+  }
+}

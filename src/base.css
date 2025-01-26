@@ -1,0 +1,18 @@
+:root {
+  --ds-background-100: hsl(var(--ds-background-100-value));
+  --ds-background-200: hsl(var(--ds-background-200-value));
+
+  &[data-theme="light"],
+  &.light,
+  &.light-theme {
+    --ds-background-100-value: 0, 0%, 98%;
+    --ds-background-200-value: 0, 0%, 100%;
+  }
+  &,
+  &[data-theme="dark"],
+  &.dark,
+  &.dark-theme {
+    --ds-background-100-value: 0 0% 4%;
+    --ds-background-200-value: 0 0% 0%;
+  }
+}

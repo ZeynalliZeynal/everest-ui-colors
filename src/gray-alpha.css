@@ -1,0 +1,42 @@
+:root {
+  --ds-gray-alpha-100: hsl(var(--ds-gray-alpha-100-value));
+  --ds-gray-alpha-1000: hsl(var(--ds-gray-alpha-1000-value));
+  --ds-gray-alpha-200: hsl(var(--ds-gray-alpha-200-value));
+  --ds-gray-alpha-300: hsl(var(--ds-gray-alpha-300-value));
+  --ds-gray-alpha-400: hsl(var(--ds-gray-alpha-400-value));
+  --ds-gray-alpha-500: hsl(var(--ds-gray-alpha-500-value));
+  --ds-gray-alpha-600: hsl(var(--ds-gray-alpha-600-value));
+  --ds-gray-alpha-700: hsl(var(--ds-gray-alpha-700-value));
+  --ds-gray-alpha-800: hsl(var(--ds-gray-alpha-800-value));
+  --ds-gray-alpha-900: hsl(var(--ds-gray-alpha-900-value));
+
+  &[data-theme="light"],
+  &.light,
+  &.light-theme {
+    --ds-gray-alpha-100-value: 0, 0%, 0%, 0.05;
+    --ds-gray-alpha-1000-value: 0, 0%, 0%, 0.91;
+    --ds-gray-alpha-200-value: 0, 0%, 0%, 0.08;
+    --ds-gray-alpha-300-value: 0, 0%, 0%, 0.1;
+    --ds-gray-alpha-400-value: 0, 0%, 0%, 0.08;
+    --ds-gray-alpha-500-value: 0, 0%, 0%, 0.21;
+    --ds-gray-alpha-600-value: 0, 0%, 0%, 0.34;
+    --ds-gray-alpha-700-value: 0, 0%, 0%, 0.44;
+    --ds-gray-alpha-800-value: 0, 0%, 0%, 0.51;
+    --ds-gray-alpha-900-value: 0, 0%, 0%, 0.61;
+  }
+  &,
+  &[data-theme="dark"],
+  &.dark,
+  &.dark-theme {
+    --ds-gray-alpha-100-value: 0, 0%, 100%, 0.06;
+    --ds-gray-alpha-1000-value: 0, 0%, 100%, 0.92;
+    --ds-gray-alpha-200-value: 0, 0%, 100%, 0.09;
+    --ds-gray-alpha-300-value: 0, 0%, 100%, 0.013;
+    --ds-gray-alpha-400-value: 0, 0%, 100%, 0.14;
+    --ds-gray-alpha-500-value: 0, 0%, 100%, 0.24;
+    --ds-gray-alpha-600-value: 0, 0%, 100%, 0.51;
+    --ds-gray-alpha-700-value: 0, 0%, 100%, 0.54;
+    --ds-gray-alpha-800-value: 0, 0%, 100%, 0.47;
+    --ds-gray-alpha-900-value: 0, 0%, 100%, 0.61;
+  }
+}

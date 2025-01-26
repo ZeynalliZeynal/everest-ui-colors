@@ -1,0 +1,36 @@
+:root {
+  --ds-accent-100: hsl(var(--ds-accent-100-value));
+  --ds-accent-200: hsl(var(--ds-accent-200-value));
+  --ds-accent-300: hsl(var(--ds-accent-300-value));
+  --ds-accent-400: hsl(var(--ds-accent-400-value));
+  --ds-accent-500: hsl(var(--ds-accent-500-value));
+  --ds-accent-600: hsl(var(--ds-accent-600-value));
+  --ds-accent-700: hsl(var(--ds-accent-700-value));
+  --ds-accent-800: hsl(var(--ds-accent-800-value));
+
+  &[data-theme="light"],
+  &.light,
+  &.light-theme {
+    --ds-accent-100-value: 0 0% 98%;
+    --ds-accent-200-value: 0 0% 92%;
+    --ds-accent-300-value: 0 0% 60%;
+    --ds-accent-400-value: 0 0% 53%;
+    --ds-accent-500-value: 0 0% 40%;
+    --ds-accent-600-value: 0 0% 27%;
+    --ds-accent-700-value: 0 0% 20%;
+    --ds-accent-800-value: 0 0% 7%;
+  }
+  &,
+  &[data-theme="dark"],
+  &.dark,
+  &.dark-theme {
+    --ds-accent-100-value: 0 0% 7%;
+    --ds-accent-200-value: 0 0% 20%;
+    --ds-accent-300-value: 0 0% 27%;
+    --ds-accent-400-value: 0 0% 40%;
+    --ds-accent-500-value: 0 0% 53%;
+    --ds-accent-600-value: 0 0% 60%;
+    --ds-accent-700-value: 0 0% 92%;
+    --ds-accent-800-value: 0 0% 98%;
+  }
+}
