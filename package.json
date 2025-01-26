@@ -1,6 +1,6 @@
 {
   "name": "@everest-ui/colors",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Tailwindcss styles used in Everest UI",
   "files": [
     "dist"
