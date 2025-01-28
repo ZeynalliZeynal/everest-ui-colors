@@ -6,10 +6,13 @@
     "dist"
   ],
   "scripts": {
-    "build": "pnpx webpack --config webpack.config.js",
+    "build": "yarn webpack --config webpack.config.js",
     "release": "standard-version",
     "clean": "rimraf dist",
     "push": "git push --follow-tags origin main"
+  },
+  "exports": {
+    "./*.css": "./dist/*.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
